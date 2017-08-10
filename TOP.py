@@ -20,7 +20,8 @@ from xml.dom import minidom
 #Crear listado de la carpeta donde estan los .tif
  
 #Variable para la ruta al directorio
-path = 'C:\Users\elaverde\Downloads\Planet\FENALCE\Fenalce\PS\August232016'
+path = os.getcwd()
+%path = 'C:\Users\elaverde\Downloads\Planet\FENALCE\Fenalce\PS\August232016'
  
 #Lista vacia para incluir los ficheros
 lstFiles = []
